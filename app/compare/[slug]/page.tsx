@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = await getPostBySlug('comparison', slug);
   if (!post) return {};
   return {
-    title: `${post.title} | The Deep Mirror`,
+    title: `${post.title} | DeepMirror`,
     description: post.description,
   };
 }
@@ -33,12 +33,12 @@ export default async function ComparePage({ params }: Props) {
         headline: post.title,
         description: post.description,
         datePublished: post.date,
-        author: { '@type': 'Organization', name: 'The Deep Mirror' },
+        author: { '@type': 'Organization', name: 'DeepMirror' },
       }} />
       <header className="border-b border-border bg-background-elevated">
         <nav className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
           <a href="/" className="text-xl font-bold text-primary" style={{ fontFamily: "'Inter', sans-serif" }}>
-            The Deep Mirror
+            DeepMirror
           </a>
           <div className="flex items-center gap-6 text-sm">
             <a href="/blog" className="text-text-muted hover:text-text transition-colors">Blog</a>
@@ -56,7 +56,7 @@ export default async function ComparePage({ params }: Props) {
       <footer className="border-t border-border bg-background-elevated mt-auto">
         <div className="mx-auto max-w-5xl px-6 py-8">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-            <p className="text-text-muted text-sm">&copy; 2026 The Deep Mirror. All rights reserved.</p>
+            <p className="text-text-muted text-sm">&copy; 2026 DeepMirror. All rights reserved.</p>
             <div className="flex gap-6 text-sm">
               <a href="/" className="text-text-muted hover:text-text transition-colors">Home</a>
               <a href="/blog" className="text-text-muted hover:text-text transition-colors">Blog</a>

@@ -2,18 +2,18 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: `The Deep Mirror — AI-powered Enneagram typing that actually works`,
-  description: `AI enneagram test using conversational assessment to solve mistyping problems. Get accurate results through dynamic dialogue, not static surveys.`,
+  title: `DeepMirror — AI-powered Enneagram typing that actually works`,
+  description: `Revolutionary AI Enneagram test using conversational assessment instead of flawed surveys. Get your accurate type through dynamic dialogue, not static questionnaires.`,
   openGraph: {
-    title: `The Deep Mirror — AI-powered Enneagram typing that actually works`,
-    description: `AI enneagram test using conversational assessment to solve mistyping problems. Get accurate results through dynamic dialogue, not static surveys.`,
+    title: `DeepMirror — AI-powered Enneagram typing that actually works`,
+    description: `Revolutionary AI Enneagram test using conversational assessment instead of flawed surveys. Get your accurate type through dynamic dialogue, not static questionnaires.`,
     type: 'website',
-    siteName: `The Deep Mirror`,
+    siteName: `DeepMirror`,
   },
   twitter: {
     card: 'summary_large_image',
-    title: `The Deep Mirror — AI-powered Enneagram typing that actually works`,
-    description: `AI enneagram test using conversational assessment to solve mistyping problems. Get accurate results through dynamic dialogue, not static surveys.`,
+    title: `DeepMirror — AI-powered Enneagram typing that actually works`,
+    description: `Revolutionary AI Enneagram test using conversational assessment instead of flawed surveys. Get your accurate type through dynamic dialogue, not static questionnaires.`,
   },
 };
 
