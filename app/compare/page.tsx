@@ -2,7 +2,7 @@ import { getAllPosts } from '../../lib/content';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: `Comparisons — DeepMirror`,
+  title: `Comparisons — The Deep Mirror`,
   description: `Side-by-side comparisons to help you choose the right solution.`,
 };
 
@@ -14,7 +14,7 @@ export default async function ComparisonsPage() {
       <header className="border-b border-border bg-background-elevated">
         <nav className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
           <a href="/" className="text-xl font-bold text-primary" style={{ fontFamily: "'Inter', sans-serif" }}>
-            DeepMirror
+            The Deep Mirror
           </a>
           <div className="flex items-center gap-6 text-sm">
             <a href="/blog" className="text-text-muted hover:text-text transition-colors">Blog</a>
@@ -50,7 +50,7 @@ export default async function ComparisonsPage() {
       <footer className="border-t border-border bg-background-elevated mt-auto">
         <div className="mx-auto max-w-5xl px-6 py-8">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-            <p className="text-text-muted text-sm">&copy; 2026 DeepMirror. All rights reserved.</p>
+            <p className="text-text-muted text-sm">&copy; 2026 The Deep Mirror. All rights reserved.</p>
             <div className="flex gap-6 text-sm">
               <a href="/" className="text-text-muted hover:text-text transition-colors">Home</a>
               <a href="/blog" className="text-text-muted hover:text-text transition-colors">Blog</a>

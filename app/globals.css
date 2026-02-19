@@ -2,13 +2,13 @@
 
 @theme {
   --color-primary: #4F46E5;
-  --color-primary-light: #818CF8;
-  --color-background: #0F172A;
-  --color-background-elevated: #1E293B;
+  --color-primary-light: #8B80F9;
+  --color-background: #0F0F23;
+  --color-background-elevated: #1A1B3A;
   --color-text: #F8FAFC;
   --color-text-secondary: #CBD5E1;
   --color-text-muted: #64748B;
-  --color-accent: #06D6A0;
+  --color-accent: #10B981;
   --color-border: #334155;
 }
 
