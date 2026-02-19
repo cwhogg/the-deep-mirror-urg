@@ -2,18 +2,18 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: `The Deep Mirror — AI-Powered Conversational Enneagram Assessment`,
-  description: `AI enneagram test 2026 that eliminates mistyping through dynamic conversations. Get accurate results beyond static surveys for executives and coaches.`,
+  title: `The Deep Mirror — AI-Powered Enneagram Assessment for Leaders`,
+  description: `Revolutionary AI enneagram test 2026 using conversational assessment technology. Get accurate personality typing without survey limitations. Trusted by executives.`,
   openGraph: {
-    title: `The Deep Mirror — AI-Powered Conversational Enneagram Assessment`,
-    description: `AI enneagram test 2026 that eliminates mistyping through dynamic conversations. Get accurate results beyond static surveys for executives and coaches.`,
+    title: `The Deep Mirror — AI-Powered Enneagram Assessment for Leaders`,
+    description: `Revolutionary AI enneagram test 2026 using conversational assessment technology. Get accurate personality typing without survey limitations. Trusted by executives.`,
     type: 'website',
     siteName: `The Deep Mirror`,
   },
   twitter: {
     card: 'summary_large_image',
-    title: `The Deep Mirror — AI-Powered Conversational Enneagram Assessment`,
-    description: `AI enneagram test 2026 that eliminates mistyping through dynamic conversations. Get accurate results beyond static surveys for executives and coaches.`,
+    title: `The Deep Mirror — AI-Powered Enneagram Assessment for Leaders`,
+    description: `Revolutionary AI enneagram test 2026 using conversational assessment technology. Get accurate personality typing without survey limitations. Trusted by executives.`,
   },
 };
 
