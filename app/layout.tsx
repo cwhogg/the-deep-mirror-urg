@@ -3,17 +3,17 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: `The Deep Mirror — AI-Powered Conversational Enneagram Assessment`,
-  description: `The most accurate AI enneagram test 2026. Conversational enneagram assessment that eliminates mistyping through dynamic dialogue. Get your true type.`,
+  description: `Unlike static surveys, The Deep Mirror uses conversational AI to probe contradictions and explore complexity. The most accurate AI enneagram test available. Start your typing conversation.`,
   openGraph: {
     title: `The Deep Mirror — AI-Powered Conversational Enneagram Assessment`,
-    description: `The most accurate AI enneagram test 2026. Conversational enneagram assessment that eliminates mistyping through dynamic dialogue. Get your true type.`,
+    description: `Unlike static surveys, The Deep Mirror uses conversational AI to probe contradictions and explore complexity. The most accurate AI enneagram test available. Start your typing conversation.`,
     type: 'website',
     siteName: `The Deep Mirror`,
   },
   twitter: {
     card: 'summary_large_image',
     title: `The Deep Mirror — AI-Powered Conversational Enneagram Assessment`,
-    description: `The most accurate AI enneagram test 2026. Conversational enneagram assessment that eliminates mistyping through dynamic dialogue. Get your true type.`,
+    description: `Unlike static surveys, The Deep Mirror uses conversational AI to probe contradictions and explore complexity. The most accurate AI enneagram test available. Start your typing conversation.`,
   },
 };
 
